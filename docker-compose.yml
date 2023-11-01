@@ -2,7 +2,7 @@ version: "3"
 
 services:
   shop:
-    container_name: testshop_shop
+    container_name: dockware-demoshop_shop
     image: dockware/essentials:2.0
     ports:
       - "22:22" # ssh
@@ -22,13 +22,13 @@ services:
 
   redis:
     image: redis:6.2.4-alpine
-    container_name: testshop_redis
+    container_name: dockware-demoshop_redis
     networks:
       - web
 
   mysql:
     image: mysql:8.0.34
-    container_name: testshop_db
+    container_name: dockware-demoshop_db
     networks:
       - web
     volumes:
@@ -41,7 +41,7 @@ services:
 
   elasticsearch:
     image: elasticsearch:7.17.13
-    container_name: testshop_elasticsearch
+    container_name: dockware-demoshop_elasticsearch
     networks:
       - web
     environment:

@@ -12,11 +12,11 @@ docker-start: ## starts the docker container
 
 # ---------------------------------------------------------------------------------------------
 docker-exec: ## connects to docker container
-	docker exec -it testshop_shop bash
+	docker exec -it dockware-demoshop_shop bash
 
 # ---------------------------------------------------------------------------------------------
 docker-stop: ## stops the docker container
-	docker stop testshop_shop
-	docker stop testshop_redis
-	docker stop testshop_db
-	docker stop testshop_elasticsearch
+	docker stop dockware-demoshop_shop
+	docker stop dockware-demoshop_redis
+	docker stop dockware-demoshop_db
+	docker stop dockware-demoshop_elasticsearch
