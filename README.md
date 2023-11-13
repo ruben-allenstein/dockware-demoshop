@@ -8,3 +8,6 @@ package and deploy Shopware 6 to production shops.
 1. Change the containername and change the names even for the `makefile`
 1. Delete the keys inside the `config/jwt/` folder
 2. Run `bin/console system:install`
+
+# How to install the Shop after starting containers
+1. Run composer install, to fill and index the shopware database
