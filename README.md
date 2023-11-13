@@ -10,7 +10,8 @@ package and deploy Shopware 6 to production shops.
 2. Run `bin/console system:install`
 
 # How to install the Shop after starting containers
-1. Run composer install, to fill and index the shopware database
+1. At first: create a new MYSQL-Database and a new schema `shopware`
+2. Run composer install, to fill and index the shopware database
 
 
 # Hints & Fix
