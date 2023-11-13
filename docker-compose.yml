@@ -40,7 +40,7 @@ services:
       MYSQL_DATABASE: shopware
 
   elasticsearch:
-    image: elasticsearch:7.17.13
+    image: elasticsearch:7.17.14
     container_name: dockware-demoshop_elasticsearch
     ports:
       - "9200:9200"
