@@ -19,3 +19,6 @@ package and deploy Shopware 6 to production shops.
 ## build-admin can not execute
 - Give correct rights for user `www-data` with running `sudo chown -R 33:33 "/var/www/.npm"`
 - `bin/build-js` should work now
+
+# ToDo
+- Adding E2E Tests
