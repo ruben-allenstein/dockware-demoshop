@@ -22,3 +22,4 @@ package and deploy Shopware 6 to production shops.
 
 # ToDo
 - Adding E2E Tests
+- HowTo using redis and elastic
