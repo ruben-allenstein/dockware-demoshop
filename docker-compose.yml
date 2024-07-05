@@ -1,7 +1,7 @@
 services:
   shop:
     container_name: dockware-demoshop_shop
-    image: dockware/essentials:2.0
+    image: dockware/essentials:latest
     ports:
       - "22:22" # ssh
       - "80:80" # apache2
